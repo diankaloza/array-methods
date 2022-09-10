@@ -1,0 +1,41 @@
+body {
+  background: rgb(26, 25, 25);
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: rgb(158, 144, 147);
+  font-family: arial;
+  letter-spacing: 2px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  color: rgb(161, 151, 153);
+}
+.method {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  border-bottom: 2px solid white;
+  gap: 16px;
+}
+.method:last-child {
+  border-bottom: 0px;
+}
+footer {
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px;
+  background: rgb(32, 31, 31) 0%;
+  margin: 0;
+  color: rgb(154, 147, 147);
+}
+a {
+  color: rgb(154, 147, 147);
+  font-size: 16px;
+}
